@@ -1,5 +1,5 @@
 import re
-regex_str = '(mul\(\d{1,9},\d{1,9}\))'
+regex_str = '(mul\(\d+,\d+\))'
 
 
 def get_input(fp):
